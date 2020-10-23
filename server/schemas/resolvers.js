@@ -42,7 +42,6 @@ const resolvers = {
         .populate('friends')
         .populate('thoughts');
     }
-
   },
 
   Mutation: {
